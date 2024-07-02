@@ -1,0 +1,130 @@
+:root {
+    --default: #2c2c2c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Great Vibes', cursive; */
+    position: relative;
+}
+
+.titulo {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 4em;
+    color: var(--default);
+}
+
+.menu {
+    background-color: var(--default);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    background-color: var(--default);
+}
+
+ul a {
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+
+ul a:hover {
+    background-color: azure;
+    color: var(--default);
+}
+
+footer {
+    background-color: var(--default);
+    color: azure;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.logueado {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 94px;
+    text-decoration: none;
+    color: azure;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.logueado:hover {
+    background: azure;
+    color: #2c2c2c;
+}
+
+.subtitulos {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* HOME */
+
+
+/* PUBLICACIONES */
+
+.publicaciones {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.publicaciones label,
+.publicaciones input {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+.listado {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.listado,
+th,
+td {
+    border: 1px solid var(--default);
+}
+
+.imagen-auto {
+    width: 100px;
+}

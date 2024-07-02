@@ -1,0 +1,44 @@
+:root {
+    --rojo: red;
+}
+
+.titulo {
+    color: var(--rojo);
+}
+
+.menu {
+    background-color: var(--rojo);
+}
+
+ul {
+    background-color: var(--rojo);
+}
+
+ul a:hover {
+    background-color: azure;
+    color: var(--rojo);
+}
+
+.banner {
+    background-image: url(../img/rojo.jpg);
+}
+
+.enlace {
+    background-color: var(--rojo);
+}
+
+.enlace:hover {
+    border: 1px solid var(--rojo);
+    color: var(--rojo)
+}
+
+@media screen and (max-width:767px) {
+    ul {
+        display: block;
+        background-color: var(--rojo);
+    }
+    .menu-movil {
+        background-color: var(--rojo);
+        display: block;
+    }
+}

@@ -1,0 +1,44 @@
+:root {
+    --green: green;
+}
+
+.titulo {
+    color: var(--green);
+}
+
+.menu {
+    background-color: var(--green);
+}
+
+ul {
+    background-color: var(--green);
+}
+
+ul a:hover {
+    background-color: azure;
+    color: var(--green);
+}
+
+.banner {
+    background-image: url(../img/verde.jpg);
+}
+
+.enlace {
+    background-color: var(--green);
+}
+
+.enlace:hover {
+    border: 1px solid var(--green);
+    color: var(--green)
+}
+
+@media screen and (max-width:767px) {
+    ul {
+        display: block;
+        background-color: var(--green);
+    }
+    .menu-movil {
+        background-color: var(--green);
+        display: block;
+    }
+}

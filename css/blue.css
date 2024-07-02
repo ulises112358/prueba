@@ -1,0 +1,44 @@
+:root {
+    --blue: blue;
+}
+
+.titulo {
+    color: var(--blue);
+}
+
+.menu {
+    background-color: var(--blue);
+}
+
+ul {
+    background-color: var(--blue);
+}
+
+ul a:hover {
+    background-color: azure;
+    color: var(--blue);
+}
+
+.banner {
+    background-image: url(../img/azul.jpg);
+}
+
+.enlace {
+    background-color: var(--blue);
+}
+
+.enlace:hover {
+    border: 1px solid var(--blue);
+    color: var(--blue)
+}
+
+@media screen and (max-width:767px) {
+    ul {
+        display: block;
+        background-color: var(--blue);
+    }
+    .menu-movil {
+        background-color: var(--blue);
+        display: block;
+    }
+}
